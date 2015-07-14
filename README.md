@@ -1,2 +1,2 @@
 # rosalind
-easy solutions for the rosalind problems
+easy solutions for the rosalind problems using python
