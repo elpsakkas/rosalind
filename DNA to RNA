@@ -1,0 +1,7 @@
+import string
+
+dna=raw_input(" Please enter DNA sequence: ")
+
+rna=string.replace(dna,'T', 'U')
+
+print rna
