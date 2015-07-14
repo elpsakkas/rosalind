@@ -4,4 +4,6 @@ dna=raw_input(" Please enter DNA sequence: ")
 
 rna=string.replace(dna,'T', 'U')
 
-print rna
+
+text_file=open("RNA.txt", "w")
+text_file.write("%s" % rna)
