@@ -1,2 +1,2 @@
 # rosalind
-easy solution for rosalind problems
+easy solutions for the rosalind problems
