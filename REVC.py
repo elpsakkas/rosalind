@@ -1,3 +1,7 @@
+'''The dna sequence is initially reversed and then it saved in a new list
+   under dna1; the program checks every base and substitutes with the
+   complementary base '''
+   
 dna= raw_input("Please enter DNA sequence: ")
 dna=dna.upper()
 dna1=dna[::-1]
