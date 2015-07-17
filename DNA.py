@@ -1,3 +1,5 @@
+#Count the dna bases and display the sums
+
 dna= raw_input("Please enter sequence: ")
 
 a=dna.count("A")
