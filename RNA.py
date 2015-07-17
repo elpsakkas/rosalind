@@ -1,3 +1,7 @@
+''' The program takes in the dna sequence and converts it to RNA
+    by substituting the base "T" with "U" '''
+
+
 import string
 
 dna=raw_input(" Please enter DNA sequence: ")
