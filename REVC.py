@@ -23,3 +23,16 @@ for base in range(len(dna1)):
         print "Your sequence contains strange characters"
         break
 print "".join(new)
+
+# Second solution using dictionaries structure
+
+base_compl={'A':'T', 'C':'G','G':'C', 'T':'A','N':'N'}
+seq=list(raw_input("Please enter DNA sequence:"))
+seq1=seq[::-1]
+new=[]
+for i in seq1:
+    for key in base_compl:
+        if i==key:
+            new.append(base_compl[key])
+            continue
+print ''.join(new)
